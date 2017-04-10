@@ -1,24 +1,12 @@
-# README
+# Rails with React
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I take no credit for this. This code was from Fernando Villalobos, following his tutorial on how React works with a Rails app.
+You can follow and read through the tutorial at https://www.airpair.com/reactjs/posts/reactjs-a-guide-for-rails-developers
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* NOTE
+I did find an issue at the very end of the tutorial.
+It should be 
+ReactDOM.findDOMNode()
+NOT
+React.findDOMNode()
+It drove me insane when I was following along and I could not get it to work.
